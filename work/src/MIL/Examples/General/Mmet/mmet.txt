@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #255
+
+[EXAMPLE NAME]
+Mmet
+
+[FILE NAME]
+mmet.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the metrology module to measure geometric feature and tolerances on parts.

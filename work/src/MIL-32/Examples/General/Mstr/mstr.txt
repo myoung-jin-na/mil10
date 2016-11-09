@@ -1,0 +1,16 @@
+[EXAMPLE NUMBER]
+Example #285
+
+[EXAMPLE NAME]
+Mstr
+
+[FILE NAME]
+mstr.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the String Reader module to define a font from an image containing a mosaic of Quebec license plates.
+Two String Models are then defined and parameterized to read only some valid Quebec license plates.
+A license plate reading is then performed in a target image of a car on the road.

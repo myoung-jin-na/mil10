@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase">
+      <UniqueIdentifier>{2dc0f841-cf3d-4a78-acec-9626e7ba9ff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase\ColorTasks">
+      <UniqueIdentifier>{1951e5a4-a9e3-433c-bbcd-0ed418405d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase\MatchingTasks">
+      <UniqueIdentifier>{0377888f-9a69-4eca-b508-2e0bbff808af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase\MeasuringTasks">
+      <UniqueIdentifier>{81427369-ddb7-46f0-8eda-4df61431d19b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase\ReadingTasks">
+      <UniqueIdentifier>{66565d1d-095e-4124-a0dd-c38636747799}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExampleManager">
+      <UniqueIdentifier>{cdf2663a-ad59-4e9a-ad12-4c0a6f82bfd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase">
+      <UniqueIdentifier>{ae9c7f3b-b77f-4dfa-8fc9-f1cbe8e6bdcb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase\ColorTasks">
+      <UniqueIdentifier>{12cc0c97-d860-41c0-9ea9-c1072a4eec17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase\MatchingTasks">
+      <UniqueIdentifier>{c6240c85-a8fc-44b5-92f8-c84ed81ca4bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase\MeasuringTasks">
+      <UniqueIdentifier>{5b2d75fb-fabd-40d0-960e-daf68fdbbe87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase\ReadingTasks">
+      <UniqueIdentifier>{104b74a7-032f-40bf-8581-b5dc2963abf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExampleManager">
+      <UniqueIdentifier>{1462f13e-5973-4b8c-aa04-708f99d10b95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\InspectionTaskBase\Regions">
+      <UniqueIdentifier>{9ded34b1-cda3-47f6-8b0f-c0aaa8557e68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\InspectionTaskBase\Regions">
+      <UniqueIdentifier>{ee389d21-2b70-49fa-ac3c-114464e218c8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\InspectionTaskBase\HighLevelInspectionTask.cpp">
+      <Filter>Source Files\InspectionTaskBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\InspectionTask.cpp">
+      <Filter>Source Files\InspectionTaskBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\SimpleFixture.cpp">
+      <Filter>Source Files\InspectionTaskBase</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\ModelFinderAlignmentTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\PatternMatchingTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\TargetAlignmentTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\MeasurementInspectionTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\MetrologyInspectionTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\PositionInspection.cpp">
+      <Filter>Source Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\ReadingTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\ReadingTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ExampleManager\ExampleManager.cpp">
+      <Filter>Source Files\ExampleManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\RegionManager.cpp">
+      <Filter>Source Files\InspectionTaskBase\Regions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\Region\RectangleRegion.cpp">
+      <Filter>Source Files\InspectionTaskBase\Regions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\Region\GraphicRegion.cpp">
+      <Filter>Source Files\InspectionTaskBase\Regions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\Region\ArcRegion.cpp">
+      <Filter>Source Files\InspectionTaskBase\Regions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\Region\PolygonRegion.cpp">
+      <Filter>Source Files\InspectionTaskBase\Regions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\MeasurementAlignment.cpp">
+      <Filter>Source Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\InspectionTaskBase\ColorMatchTask.cpp">
+      <Filter>Source Files\InspectionTaskBase\ColorTasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\InspectionTaskBase\HighLevelInspectionTask.h">
+      <Filter>Header Files\InspectionTaskBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\InspectionTask.h">
+      <Filter>Header Files\InspectionTaskBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\SimpleFixture.h">
+      <Filter>Header Files\InspectionTaskBase</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\ColorMatchTask.h">
+      <Filter>Header Files\InspectionTaskBase\ColorTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\ModelFinderAlignmentTask.h">
+      <Filter>Header Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\PatternMatchingTask.h">
+      <Filter>Header Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\TargetAlignmentTask.h">
+      <Filter>Header Files\InspectionTaskBase\MatchingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\MeasurementInspectionTask.h">
+      <Filter>Header Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\MetrologyInspectionTask.h">
+      <Filter>Header Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\PositionInspection.h">
+      <Filter>Header Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\ReadCodeTask.h">
+      <Filter>Header Files\InspectionTaskBase\ReadingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\ReadingTask.h">
+      <Filter>Header Files\InspectionTaskBase\ReadingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\ReadStrTask.h">
+      <Filter>Header Files\InspectionTaskBase\ReadingTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ExampleManager\ExampleManager.h">
+      <Filter>Header Files\ExampleManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\RegionManager.h">
+      <Filter>Header Files\InspectionTaskBase\Regions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\Region\RectangleRegion.h">
+      <Filter>Header Files\InspectionTaskBase\Regions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\Region\GraphicRegion.h">
+      <Filter>Header Files\InspectionTaskBase\Regions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\Region\ArcRegion.h">
+      <Filter>Header Files\InspectionTaskBase\Regions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\Region\PolygonRegion.h">
+      <Filter>Header Files\InspectionTaskBase\Regions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\InspectionTaskBase\MeasurementAlignment.h">
+      <Filter>Header Files\InspectionTaskBase\MeasuringTasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

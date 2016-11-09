@@ -1,0 +1,76 @@
+-------------------------------------------------------------------------------
+                       Matrox Imaging Library (MIL) 10.0
+                           Release Notes (lastminute)
+                                 December, 2013
+            (c) Copyright Matrox Electronic Systems Ltd., 1992-2013.
+-------------------------------------------------------------------------------
+
+This file presents last minute information that did not make it into the
+manuals or on-line help, except for last minute hardware-specific information.
+For hardware-specific information, see the release note specific for your 
+driver. The information found in this file overrides your formally documented 
+material.
+
+-------------------------------------------------------------------------------
+Contents
+1. Inquiring the results of a macro
+2. Matrox Intellicam limitations
+3. MilPerfViewer
+4. PDF MIL Release Notes
+5. License generation
+
+-------------------------------------------------------------------------------
+1. Inquiring the results of a macro
+
+   - When inquiring the results of some macros (for example, MdispControl
+     with M_BACKGROUND_COLOR and M_RGB888()), the value is returned in its raw 
+     encoded form, which you must interpret. In some cases, MIL provides a
+     macro for its interpretation.
+
+-------------------------------------------------------------------------------
+2. Matrox Intellicam limitations
+
+   - When using Matrox Intellicam to grab images from a camera, the frame
+     rate displayed might be lower than the actual grab rate, especially
+     when grabbing at high frame rates. To obtain the grab rate, you should
+     grab into an image that does not have a display attribute.
+     Note that when grabbing into an image without a display attribute,
+     the frame rate might still be lower than the grab rate due to 
+     limitations of the hardware being used.
+
+   - An exception can occur when using Matrox Intellicam with a Camera Link
+     camera accessed using the GenICam CLProtocol, and you try modifying the 
+     DCF while the feature browser is open. To modify the DCF, ensure the 
+     feature browser is not open.
+
+   - An exception can occur when using Matrox Intellicam with a GigE Vision 
+     camera, and you try clicking on "Dump State to DCF" in the "Camera 
+     Configuration" tab of the DCF. This occurs when one of the parameters is 
+     bigger then 255 bytes (typically LUTs). To prevent the exception, delete 
+     those parameters before saving the DCF.
+
+-------------------------------------------------------------------------------
+3. MilPerfViewer
+	
+   - When using MilPerfViewer (Matrox Performance Monitor) under a non 
+     US-English operating system, it is possible that you are not able to see 
+     Matrox performance counters. In such cases, it is possible to use the 
+     Microsoft PerfMon utility to see the Matrox performance counters.
+
+-------------------------------------------------------------------------------
+4. PDF MIL Release Notes
+
+   - If you are using the 64-bit version of Windows 7 or Windows 8 with 
+     Internet Explorer 10, you might encounter an issue that prevents you from 
+     opening MIL Release Notes that redirect you to a PDF file. If this is the 
+     case, try using a previous version of Internet Explorer (IE8 or IE9) or 
+     contact Matrox Imaging support.
+	  
+-------------------------------------------------------------------------------
+
+5. License generation
+
+   - Selecting "MIL development" as the "License Type" to "Generate" is not
+     supported. A MIL development license comes as a USB dongle included 
+     in the MIL development package.
+

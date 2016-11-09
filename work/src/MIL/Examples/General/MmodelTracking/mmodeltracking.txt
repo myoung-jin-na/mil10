@@ -1,0 +1,19 @@
+[EXAMPLE NUMBER]
+Example #230
+
+[EXAMPLE NAME]
+MmodelTracking
+
+[FILE NAME]
+mmodeltracking.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program shows how to track a unique object using pattern recognition. It allocates a model in the field of view of the camera and finds it in a loop. It also prints the coordinates of the found model and draws a box around it. It searches using 2 methods, the normalized grayscale correlation (Mpat), which is very fast and with the Geometric Model Finder (Mmod), which is independent of the model rotation and scale but slower.
+
+Note:  Display update and annotations drawing can require significant CPU usage.
+
+[DIGITIZER NEEDED]
+Yes

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b0dd41a2-ca69-442d-bc5f-92707a2658a4}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks">
+      <UniqueIdentifier>{e6b96e8d-c601-47c9-bda1-a3b68d85de98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{d3f7a739-c432-4648-8a0a-3968b5f7fdde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks">
+      <UniqueIdentifier>{1a592876-9114-4f4c-8946-41ee617c6135}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\AmpouleAndPackageInspection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CapOrientation.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HorizontalAndAngleAlignment.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProductCountInspection.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\VerticalAlignment.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CapOrientation.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HorizontalAndAngleAlignment.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProductCountInspection.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\VerticalAlignment.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

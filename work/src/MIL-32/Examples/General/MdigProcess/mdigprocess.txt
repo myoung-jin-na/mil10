@@ -1,0 +1,22 @@
+[EXAMPLE NUMBER]
+Example #50
+
+[EXAMPLE NAME]
+MdigProcess
+
+[FILE NAME]
+mdigprocess.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program shows the use of the MdigProcess() function to perform real-time processing. 
+The user's processing code is written in a hook function that will be called for each frame grabbed (see ProcessingFunction()).
+                                                                       
+Note: The average processing time must be shorter than the grab time or some frames will be missed. 
+Also, if the processing results are not displayed and the frame count is not drawn or printed, the CPU usage is reduced significantly.
+
+
+[DIGITIZER NEEDED]
+Yes

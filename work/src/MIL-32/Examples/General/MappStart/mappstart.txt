@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #10
+
+[EXAMPLE NAME]
+MappStart
+
+[FILE NAME]
+mappstart.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program allocates a MIL application and system, then displays a welcoming message using graphics functions. It also shows how to check for errors.

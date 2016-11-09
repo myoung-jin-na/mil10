@@ -1,0 +1,21 @@
+[EXAMPLE NUMBER]
+Example #190
+
+[EXAMPLE NAME]
+Mthread
+
+[FILE NAME]
+mthread.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program shows how to use threads in a MIL application and synchronize them with events. It creates 4 processing threads that are used to work in 4 different regions of a display buffer.
+
+Thread usage:
+- The main thread starts a processing thread in each of the 4 different quarters of a display buffer. The main thread then waits for a key to be pressed to stop them.
+- The top-left and bottom-left threads work in a loop, as follows: the top-left thread adds a constant to its buffer, then sends an event to the bottom-left thread. The bottom-left thread waits for the event from the top-left thread, rotates the top-left buffer image, then sends an event to the top-left thread to start a new loop.
+- The top-right and bottom-right threads work the same way as the top-left and bottom-left threads, except that the bottom-right thread performs an edge detection operation, rather than a rotation.
+Note : Under MIL-Lite, the threads will do graphic annotations instead.
+           

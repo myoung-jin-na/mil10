@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #135
+
+[EXAMPLE NAME]
+MgraInteractive
+
+[FILE NAME]
+mgrainteractive.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the capabilities of MIL's interactive graphics.

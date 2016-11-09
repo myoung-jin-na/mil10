@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #80
+
+[EXAMPLE NAME]
+MdigAutoFocus
+
+[FILE NAME]
+mdigautofocus.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program performs an autofocus operation using the MdigFocus() function. Since the way to move a motorized camera lens is device specific, we will not include real lens movement control and image grab but will simulate the lens focus with a smooth operation. 

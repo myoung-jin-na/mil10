@@ -1,0 +1,22 @@
+[EXAMPLE NUMBER]
+Example #40
+
+[EXAMPLE NAME]
+MdigGrabSequence
+
+[FILE NAME]
+mdiggrabsequence.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This example shows how to grab a sequence and archive it in real-time.
+            
+Note: This example assumes that the hard disk is sufficiently fast to keep up with the grab. Also, removing the sequence display while grabbing might help if some frames are missed during acquisition.
+                                                                   
+[DMIL RESTRICTIONS]
+Yes
+
+[DIGITIZER NEEDED]
+Yes

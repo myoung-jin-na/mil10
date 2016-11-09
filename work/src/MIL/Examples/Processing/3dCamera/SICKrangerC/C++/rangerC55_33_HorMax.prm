@@ -1,0 +1,57 @@
+<ROOT valuetype='CameraObject'>
+<PC>
+<PARAMETER name='comport' >COM3</PARAMETER>
+<PARAMETER name='baudrate' >115200</PARAMETER>
+<PARAMETER name='protocol timeout' >5000</PARAMETER>
+</PC>
+<CAMERA name='RangerC55' valuetype='PM' >
+<MODULE name='CL' valuetype='COMM' >
+<GROUP name='Parameters'>
+<PARAMETER name='clock frequency' valuetype='int' info='33 or 66 MHz pixel clock' min='33' max='66' default='33' parametertype ='Argument'>33</PARAMETER>
+<PARAMETER name='horizontal blanking' valuetype='int' info='Additional blank pixels per row' min='0' max='512' default='4' parametertype ='Setting'>4</PARAMETER>
+<PARAMETER name='vertical blanking' valuetype='int' info='Additional blank rows per frame' min='0' max='512' default='1' parametertype ='Setting'>1</PARAMETER>
+</GROUP>
+</MODULE>
+<CONFIGURATION name='Measurement' valuetype='Measurement' >
+<GROUP name='Parameters'>
+<PARAMETER name='cycle time' valuetype='int' info='micro seconds' parametertype ='Setting'>5000</PARAMETER>
+<PARAMETER name='start column' valuetype='int' info='start column' min='0' max='1535' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='number of columns' valuetype='int' info='sensor width, must modulo 8' min='1536' max='1536' default='1536' parametertype ='Argument'>1536</PARAMETER>
+<PARAMETER name='trig mode' valuetype='int' info='0-NO_TRIG, 1 - CC1 trig, 2 - PULSE_TRIG' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of pulses per trig' valuetype='int' info='only valid for pulse trig' min='1' max='65536' default='1' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='use enable' valuetype='int' info='enable signal is sync master' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='scan height' valuetype='int' info='number of scans per buffer' min='1' max='65536' default='512' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='mark' valuetype='int' info='1,2-pulse data, 3,4 - scan id, 1,3 -per comp, 2,4 per scan' min='0' max='4' default='0' parametertype ='Argument'>0</PARAMETER>
+</GROUP>
+<COMPONENT name='HorMax 1' valuetype='HorMax' >
+<GROUP name='Parameters'>
+<PARAMETER name='enable' valuetype='int' info='component in measurement' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='start row' valuetype='int' info='first sensor row' min='0' max='511' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='number of rows' valuetype='int' info='number of rows' min='16' max='512' default='64' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='exposure time' valuetype='int' info='micro seconds' min='10' max='20000' default='5000' parametertype ='Setting'>5000</PARAMETER>
+<PARAMETER name='gain' valuetype='int' info='read-out gain 1,3,4' min='1' max='4' default='1' parametertype ='Setting'>1</PARAMETER>
+<PARAMETER name='threshold' valuetype='int' info='noise floor 0-255' min='0' max='255' default='10' parametertype ='Setting'>60</PARAMETER>
+<PARAMETER name='sub pixeling' valuetype='int' info='1 or 0.5 pixel resolution' min='0' max='255' default='10' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='ad bits' valuetype='int' info='ad converter resolution 6-8 bits' min='5' max='8' default='7' parametertype ='Setting'>7</PARAMETER>
+</GROUP>
+</COMPONENT>
+</CONFIGURATION>
+<CONFIGURATION name='Image' valuetype='Image' >
+<GROUP name='Parameters'>
+<PARAMETER name='start column' valuetype='int' info='first column' min='0' max='1535' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='number of columns' valuetype='int' info='sensor width, must be modulo 8' min='256' max='1536' default='1536' parametertype ='Argument'>1536</PARAMETER>
+<PARAMETER name='trig mode' valuetype='int' info='0-NO_TRIG, 1 - CC1 trig, 2 - PULSE_TRIG' min='0' max='3' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of pulses per trig' valuetype='int' info='only applicable for pulse trig' min='1' max='65535' default='1' parametertype ='Argument'>1</PARAMETER>
+</GROUP>
+<COMPONENT name='Image 1' valuetype='image' >
+<GROUP name='Parameters'>
+<PARAMETER name='measurement ROI overlay' valuetype='int' info='shows all measurement component ROIs in image' min='0' max='1' default='1' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='start row' valuetype='int' info='first sensor row' min='0' max='511' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of rows' valuetype='int' info='number of rows' min='2' max='512' default='512' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='exposure time' valuetype='int' info='micro seconds' min='10' max='200000' default='10000' parametertype ='Setting'>5000</PARAMETER>
+<PARAMETER name='gain' valuetype='int' info='read-out gain 1,3,4' min='1' max='4' default='1' parametertype ='Setting'>1</PARAMETER>
+</GROUP>
+</COMPONENT>
+</CONFIGURATION>
+</CAMERA>
+</ROOT>

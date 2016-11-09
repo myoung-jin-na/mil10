@@ -1,0 +1,47 @@
+-----------------------------------------------------------------------------------
+                         Matrox Imaging Library (MIL) 10.0
+                       Release Notes (DistributedMILExamples)
+                                   September 2013
+              (c) Copyright Matrox Electronic Systems Ltd., 1992-2013
+-----------------------------------------------------------------------------------
+
+Contents
+
+1. DMIL Examples using a slave DLL.
+   1.1 Same platform.
+   1.2 Different platforms.
+
+--------------------------------------------------------------------------------
+
+1. DMIL Examples using a slave DLL.
+
+   DMIL examples using a slave DLL fall into 2 categories:
+
+   - Client and server are running on the same platform; for example, the client is 
+     Windows 7 64bit and the server is Windows 8 64bit.
+   - Client and server are running on different platforms; for example, the client 
+     is Windows 7 64bit and the server is Linux or Windows 7 32bit.
+
+   1.1 Same platform.
+
+       The example will take the DLL built on the client computer (which was copied 
+       to the MIL DLLs folder as a post-build event), copy it to the server, and use it.
+
+       In this case, you can modify the slave DLL on the client system and it 
+       will be used by the server system.
+
+       Under Windows, if User Access Control (UAC) is enabled, note the following: 
+       - Client:
+         - The DLL will not be copied to the MIL DLLs folder after linking.
+       - Server:
+         - The DLL will not be copied to its MIL DLLs folder when running the example.
+         - The example will check if a slave DLL is present and continue if a DLL is there.
+
+   1.2 Different platforms
+
+       The example will check if a slave DLL is present on the server system and 
+       continue if the file exists. For the slave DLL to exist, you need to rebuild 
+       the example on the server system.
+
+ 
+

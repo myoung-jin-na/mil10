@@ -1,0 +1,65 @@
+﻿<!-- This is the main window definition.                                 -->
+<!-- Event handlers for the Loaded and Closing events have been added to -->
+<!-- Allocate and Free the MIL application                               -->
+<Window x:Class="MdispWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Loaded="Window_Loaded"
+        Closing="Window_Closing"
+        Title="MIL WPF Example" 
+        SizeToContent="WidthAndHeight">
+    <DockPanel LastChildFill="True">
+        <TextBlock 
+            Margin="2"
+            Padding="10"
+            DockPanel.Dock="Top"
+            Background="Gray"
+            Foreground="White"
+            FontSize="24">
+            Matrox Imaging Library WPF Example
+        </TextBlock>
+        <StackPanel
+            DockPanel.Dock="Left"
+            Margin="2,2,5,2">
+            <!-- This Button start the grab when the digitizer not is grabbing. -->
+            <!-- Binding the Button's IsEnabled property to the IsNotGrabbing -->
+            <!-- will enable the button only when the digitzer not grabbing. -->
+            <Button 
+                Margin="4"
+                IsEnabled="{Binding CanStartGrab}" 
+                Click="StartGrab_Click">
+                Start Grab
+            </Button>
+            <!-- This Button stops the grab when the digitizer is grabbing. -->
+            <!-- Binding the Button's IsEnabled property to the IsGrabbing -->
+            <!-- will enable the button only when the digitzer grabbing. -->
+            <Button 
+                Margin="4"
+                IsEnabled="{Binding CanStopGrab}" 
+                Click="StopGrab_Click">
+                Stop Grab
+            </Button>
+            <!-- This CheckBox controls the visibility of the dislpay's overlay. -->
+            <!-- Binding the CheckBox's IsChecked property to the OverlayVisible -->
+            <!-- propery will toggle the overlay when the CheckBox is checked or unchecked. -->
+            <CheckBox 
+                Margin="4"
+                IsChecked="{Binding OverlayVisible}">
+                Overlay visible
+            </CheckBox>
+        </StackPanel>
+        <!-- Use a WindowsFormsHost control to hold the MIL Display control  -->
+        <!-- Binding the Height and Width properties to the BufferSizeX and  -->
+        <!-- BufferSizeY properties will automatically resize to the size of -->
+        <!-- the image buffer. -->
+        <WindowsFormsHost
+            Name="_displayControlHost"
+            HorizontalAlignment="Left"
+            VerticalAlignment="Top"
+            Margin="2"
+            Width="{Binding BufferSizeX}"
+            Height="{Binding BufferSizeY}"
+            MinWidth="{Binding BufferSizeX}"
+            MinHeight="{Binding BufferSizeY}"/>
+    </DockPanel>
+</Window>

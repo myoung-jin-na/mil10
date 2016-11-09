@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #125
+
+[EXAMPLE NAME]
+MdispWPF
+
+[FILE NAME]
+Multiple
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This example shows how to use MIL to display images in a WPF application.

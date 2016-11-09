@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #250
+
+[EXAMPLE NAME]
+Mmeas
+
+[FILE NAME]
+mmeas.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program consist of 2 examples that use the Measurement module to calculate the position, width and angle of objects in an image. The first one measures the position, width and angle of a stripe in an image, and marks its center and edges. The second one measures the average position, width and angle of a row of pins on a chip.

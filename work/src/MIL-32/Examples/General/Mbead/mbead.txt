@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #253
+
+[EXAMPLE NAME]
+Mbead
+
+[FILE NAME]
+mbead.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program performs a bead inspection on a mechanical part.

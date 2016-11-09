@@ -1,0 +1,5 @@
+[EXAMPLE NAME] 
+CenteredLabelInspection 
+
+[REVISION]
+Revision= 10.00.2564

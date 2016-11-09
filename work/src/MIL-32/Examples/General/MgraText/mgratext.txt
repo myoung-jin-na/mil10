@@ -1,0 +1,15 @@
+[EXAMPLE NUMBER]
+Example #130
+
+[EXAMPLE NAME]
+MgraText
+
+[FILE NAME]
+mgratext.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program allocates a MIL application and system, then displays
+messages using truetype fonts. It also shows how to check for errors.

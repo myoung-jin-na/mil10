@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="Windows-1252" standalone="no" ?><VisualStudioProject Name="MModelTracking" ProjectGUID="{4985832D-946C-45F7-99E1-854629365D49}" ProjectType="Visual C++" RootNamespace="MModelTracking" TargetFrameworkVersion="131072" Version="9.00">
+	<Platforms>
+		<Platform Name="Win32"/>
+		<Platform Name="x64"/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory="$(ConfigurationName)" Name="Debug|Win32" OutputDirectory="$(ConfigurationName)" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TypeLibraryName="$(ProjectDir)$(ConfigurationName)\$(ProjectName).tlb"/>
+			<Tool AdditionalIncludeDirectories="$(mil_path32)\..\include" AssemblerListingLocation="$(ProjectDir)$(ConfigurationName)\" BasicRuntimeChecks="3" CompileAs="0" DebugInformationFormat="3" Name="VCCLCompilerTool" ObjectFile="$(ProjectDir)$(ConfigurationName)\" Optimization="0" PrecompiledHeaderFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).pch" PreprocessorDefinitions="WIN32;_DEBUG;_CONSOLE" ProgramDataBaseFileName="$(ProjectDir)$(ConfigurationName)\" RuntimeLibrary="1" SuppressStartupBanner="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="milpat.lib milmod.lib mil.lib" AdditionalLibraryDirectories="$(mil_path32)\..\lib" DataExecutionPrevention="0" GenerateDebugInformation="true" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).exe" ProgramDatabaseFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory="$(PlatformName)\$(ConfigurationName)" Name="Debug|x64" OutputDirectory="$(PlatformName)\$(ConfigurationName)" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).tlb"/>
+			<Tool AdditionalIncludeDirectories="$(mil_path64)\..\include" AssemblerListingLocation="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" BasicRuntimeChecks="3" CompileAs="0" DebugInformationFormat="3" Name="VCCLCompilerTool" ObjectFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" Optimization="0" PrecompiledHeaderFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).pch" PreprocessorDefinitions="WIN64;_AMD64_;_DEBUG;_CONSOLE" ProgramDataBaseFileName="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" RuntimeLibrary="1" SuppressStartupBanner="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="_DEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="milpat.lib milmod.lib mil.lib" AdditionalLibraryDirectories="$(mil_path64)\..\lib" DataExecutionPrevention="0" GenerateDebugInformation="true" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).exe" ProgramDatabaseFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory="$(ConfigurationName)" Name="Release|Win32" OutputDirectory="$(ConfigurationName)" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TypeLibraryName="$(ProjectDir)$(ConfigurationName)\$(ProjectName).tlb"/>
+			<Tool AdditionalIncludeDirectories="$(mil_path32)\..\include" AssemblerListingLocation="$(ProjectDir)$(ConfigurationName)\" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="1" Name="VCCLCompilerTool" ObjectFile="$(ProjectDir)$(ConfigurationName)\" Optimization="2" PrecompiledHeaderFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).pch" PreprocessorDefinitions="WIN32;NDEBUG;_CONSOLE" ProgramDataBaseFileName="$(ProjectDir)$(ConfigurationName)\" RuntimeLibrary="0" StringPooling="true" SuppressStartupBanner="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="milpat.lib milmod.lib mil.lib" AdditionalLibraryDirectories="$(mil_path32)\..\lib" DataExecutionPrevention="0" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).exe" ProgramDatabaseFile="$(ProjectDir)$(ConfigurationName)\$(ProjectName).pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="1"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+		<Configuration ATLMinimizesCRunTimeLibraryUsage="false" CharacterSet="2" ConfigurationType="1" InheritedPropertySheets="$(VCInstallDir)VCProjectDefaults\UpgradeFromVC71.vsprops" IntermediateDirectory="$(PlatformName)\$(ConfigurationName)" Name="Release|x64" OutputDirectory="$(PlatformName)\$(ConfigurationName)" UseOfMFC="0">
+			<Tool Name="VCPreBuildEventTool"/>
+			<Tool Name="VCCustomBuildTool"/>
+			<Tool Name="VCXMLDataGeneratorTool"/>
+			<Tool HeaderFileName="" Name="VCMIDLTool" TargetEnvironment="3" TypeLibraryName="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).tlb"/>
+			<Tool AdditionalIncludeDirectories="$(mil_path64)\..\include" AssemblerListingLocation="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" CompileAs="0" EnableFunctionLevelLinking="true" InlineFunctionExpansion="1" Name="VCCLCompilerTool" ObjectFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" Optimization="2" PrecompiledHeaderFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).pch" PreprocessorDefinitions="WIN64;_AMD64_;NDEBUG;_CONSOLE" ProgramDataBaseFileName="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\" RuntimeLibrary="0" StringPooling="true" SuppressStartupBanner="true" UsePrecompiledHeader="0" WarningLevel="3"/>
+			<Tool Name="VCManagedResourceCompilerTool"/>
+			<Tool Culture="1033" Name="VCResourceCompilerTool" PreprocessorDefinitions="NDEBUG"/>
+			<Tool Name="VCPreLinkEventTool"/>
+			<Tool AdditionalDependencies="milpat.lib milmod.lib mil.lib" AdditionalLibraryDirectories="$(mil_path64)\..\lib" DataExecutionPrevention="0" LinkIncremental="1" Name="VCLinkerTool" OutputFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).exe" ProgramDatabaseFile="$(ProjectDir)$(PlatformName)\$(ConfigurationName)\$(ProjectName).pdb" RandomizedBaseAddress="1" SubSystem="1" SuppressStartupBanner="true" TargetMachine="17"/>
+			<Tool Name="VCALinkTool"/>
+			<Tool Name="VCManifestTool"/>
+			<Tool Name="VCXDCMakeTool"/>
+			<Tool Name="VCBscMakeTool"/>
+			<Tool Name="VCFxCopTool"/>
+			<Tool Name="VCAppVerifierTool"/>
+			<Tool Name="VCPostBuildEventTool"/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter Filter="cpp;c;cxx;rc;def;r;odl;idl;hpj;bat" Name="Source Files">
+			<File RelativePath="..\MModelTracking.cpp">
+				<FileConfiguration Name="Debug|Win32">
+					<Tool AdditionalIncludeDirectories="" BasicRuntimeChecks="3" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Debug|x64">
+					<Tool AdditionalIncludeDirectories="" BasicRuntimeChecks="3" Name="VCCLCompilerTool" Optimization="0" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|Win32">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+				<FileConfiguration Name="Release|x64">
+					<Tool AdditionalIncludeDirectories="" Name="VCCLCompilerTool" Optimization="2" PreprocessorDefinitions=""/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

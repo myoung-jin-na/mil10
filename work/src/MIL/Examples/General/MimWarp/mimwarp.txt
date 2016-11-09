@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #170
+
+[EXAMPLE NAME]
+MimWarp
+
+[FILE NAME]
+mimwarp.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program performs three types of warp transformations. First the image is stretched according to four specified reference points. Then it is warped on a sinusoid, and finally, the program loops while warping the image on a sphere.

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MBead", "MBead.vbproj", "{F478F5D8-AB77-4FF5-933A-1E4C43DE0642}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F478F5D8-AB77-4FF5-933A-1E4C43DE0642}.Debug|x64.ActiveCfg = Debug|x64
+		{F478F5D8-AB77-4FF5-933A-1E4C43DE0642}.Debug|x64.Build.0 = Debug|x64
+		{F478F5D8-AB77-4FF5-933A-1E4C43DE0642}.Release|x64.ActiveCfg = Release|x64
+		{F478F5D8-AB77-4FF5-933A-1E4C43DE0642}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

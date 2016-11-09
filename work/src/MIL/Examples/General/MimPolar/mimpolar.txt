@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #180
+
+[EXAMPLE NAME]
+MimPolar
+
+[FILE NAME]
+mimpolar.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the polar-to-rectangular transformation to unroll a string.

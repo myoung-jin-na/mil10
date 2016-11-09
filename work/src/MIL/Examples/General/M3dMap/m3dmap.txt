@@ -1,0 +1,21 @@
+[EXAMPLE NUMBER]
+Example #289
+
+[EXAMPLE NAME]
+M3dmap
+
+[FILE NAME]
+m3dmap.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program inspects a wood surface using laser profiling to find any depth defects and computes the volume of a cookie.
+
+Note: Printable calibration grids in PDF format can be found in your "Matrox Imaging/Images/" directory.
+
+Note: When considering a laser-based 3D reconstruction system, the file "3D Setup Helper.xls" can be used to accelerate prototyping by choosing an adequate hardware configuration (angle, distance, lens, camera, ...). The file is located in your "Matrox Imaging/Tools/" directory.
+
+[DMIL RESTRICTIONS]
+Yes

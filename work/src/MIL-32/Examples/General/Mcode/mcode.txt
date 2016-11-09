@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #270
+
+[EXAMPLE NAME]
+Mcode
+
+[FILE NAME]
+mcode.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program decodes a 1D Code 39 linear Barcode and a 2D DataMatrix code.

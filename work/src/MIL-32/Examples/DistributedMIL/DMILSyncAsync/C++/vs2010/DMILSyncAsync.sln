@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMILSyncAsync", "..\DMILSyncAsyncMaster\vs2010\DMILSyncAsync.vcxproj", "{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMILSyncAsyncSlave", "..\DMILSyncAsyncSlave\vs2010\DMILSyncAsyncSlave.vcxproj", "{F9F4BFB2-08E8-4558-B09F-500C2152C952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Debug|Win32.Build.0 = Debug|Win32
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Release|Win32.ActiveCfg = Release|Win32
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Release|Win32.Build.0 = Release|Win32
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Debug|Win32.Build.0 = Debug|Win32
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Release|Win32.ActiveCfg = Release|Win32
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

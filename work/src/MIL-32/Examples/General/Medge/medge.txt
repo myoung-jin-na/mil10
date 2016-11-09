@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #240
+
+[EXAMPLE NAME]
+Medge
+
+[FILE NAME]
+medge.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the MIL Edge Finder module to find and measure the outer diameter of good seals in a target image. 

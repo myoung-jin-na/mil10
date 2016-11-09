@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #200
+
+[EXAMPLE NAME]
+Mblob
+
+[FILE NAME]
+mblob.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program loads an image of some nuts, bolts and washers, determines the number of each of these, finds and marks their center of gravity using the Blob analysis module.

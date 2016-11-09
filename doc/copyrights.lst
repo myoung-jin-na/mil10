@@ -1,0 +1,17 @@
+#Revision: 10.00.2564
+Portions of this software are copyright © 2007 The FreeType Project. 
+
+TIFF support contains code that is copyright © 1988-1997 Sam Leffler and copyright © 1991-1997 Silicon Graphics, Inc.
+
+JPEG support is based in part on the work of the Independent JPEG Group.
+
+GigE Vision® driver contains code that is copyright © and is the property of StorageCraft, Inc. 
+
+The Matrox Morphis driver contains BIGDIGITS multiple-precision arithmetic code originally written by David Ireland, copyright © 2001-13 by D.I. Management Services Pty Limited< www.di-mgt.com.au>, and is used with permission.
+
+The Matrox Supersight driver contains code that is copyright © 2008 Texas Instruments Incorporated.
+
+The Help system contains code that is copyright © 2008 John Resig. 
+
+The ColorSpace tool is copyright © and is the property of Philippe Colantoni (www.couleur.org).
+

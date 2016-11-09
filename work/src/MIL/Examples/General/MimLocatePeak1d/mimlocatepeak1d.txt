@@ -1,0 +1,17 @@
+[EXAMPLE NUMBER]
+Example #187
+
+[EXAMPLE NAME]
+MimLocatePeak1d
+
+[FILE NAME]
+mimlocatepeak1d.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program finds the peak in each column of an input sequence and reconstruct the height of a 3d object using it.
+
+[DMIL RESTRICTIONS]
+Yes

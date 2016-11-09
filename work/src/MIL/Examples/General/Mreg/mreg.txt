@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #287
+
+[EXAMPLE NAME]
+Mreg
+
+[FILE NAME]
+mreg.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the registration module to form a mosaic of three images taken from a camera at unknown translation.

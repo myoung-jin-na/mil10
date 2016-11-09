@@ -1,0 +1,17 @@
+[EXAMPLE NUMBER]
+Example #30
+
+[EXAMPLE NAME]
+MdigGrab
+
+[FILE NAME]
+mdiggrab.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program demonstrates how to grab from a camera in continuous and monoshot mode.
+
+[DIGITIZER NEEDED]
+Yes

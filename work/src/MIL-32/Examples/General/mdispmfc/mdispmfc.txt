@@ -1,0 +1,17 @@
+[EXAMPLE NUMBER]
+Example #120
+
+[EXAMPLE NAME]
+MdispMFC
+
+[FILE NAME]
+mdispmfc
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This example shows how to use MIL in an MFC project. It integrates MFC menus, menu bars, user-created child windows, etc. with MIL displays, buffers, timers and a digitizer.
+
+[DIGITIZER NEEDED]
+Yes

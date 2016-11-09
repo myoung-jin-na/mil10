@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #110
+
+[EXAMPLE NAME]
+MdispWindow
+
+[FILE NAME]
+mdispwindow.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program displays a welcoming message in a user-defined window and grabs (if supported) in it. It uses the MIL system and the MdispSelectWindow() function to display the MIL buffer in a user-created client window.

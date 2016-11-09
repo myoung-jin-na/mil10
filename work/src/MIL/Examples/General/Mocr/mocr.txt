@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #280
+
+[EXAMPLE NAME]
+Mocr
+
+[FILE NAME]
+mocr.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the OCR module to calibrate a predefined OCR font (SEMI font) and to read a string in the image. The string read is then printed to the screen and the calibrated font is saved to disk.

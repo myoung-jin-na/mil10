@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCal", "MCal.csproj", "{E13ED98B-50A9-42D6-914F-CA1F2CC87094}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E13ED98B-50A9-42D6-914F-CA1F2CC87094}.Debug|x64.ActiveCfg = Debug|x64
+		{E13ED98B-50A9-42D6-914F-CA1F2CC87094}.Debug|x64.Build.0 = Debug|x64
+		{E13ED98B-50A9-42D6-914F-CA1F2CC87094}.Release|x64.ActiveCfg = Release|x64
+		{E13ED98B-50A9-42D6-914F-CA1F2CC87094}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

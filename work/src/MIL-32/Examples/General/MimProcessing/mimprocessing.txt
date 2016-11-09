@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #185
+
+[EXAMPLE NAME]
+MimProcessing
+
+[FILE NAME]
+mimprocessing.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses different image processing primitives to determine the number of cell nuclei that are larger than a certain size in an image of a tissue sample.

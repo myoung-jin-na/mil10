@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{37458ac0-ec87-48e1-b36f-da8f0d054de3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks">
+      <UniqueIdentifier>{8d121763-699c-4be2-9458-80128b7c8c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks\CapTasks">
+      <UniqueIdentifier>{2846a9b7-c6ec-4b83-a428-fcfd53cc5393}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks\LabelAligmentTasks">
+      <UniqueIdentifier>{a68440c6-cc60-4033-aaf3-6b560ddbdcd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks\BottleTasks">
+      <UniqueIdentifier>{7a6a6376-c48e-49ef-9409-3893f2d67e33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks\ProductIdentificationTasks">
+      <UniqueIdentifier>{ec769ec5-bd8e-428b-81f1-2314138a02fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks\ProductTypeTasks">
+      <UniqueIdentifier>{8377ab74-ed68-4ca9-b52d-9188a1f7b73f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fe410d59-a2ca-493a-a5d3-0c1e67ab119d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks">
+      <UniqueIdentifier>{ee7ce0cb-836a-4fff-b2b9-9b005fcaff96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks\CapTasks">
+      <UniqueIdentifier>{3f7ec7a5-13f8-431c-961f-19a129172951}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks\LabelAlignmentTasks">
+      <UniqueIdentifier>{3777eb92-866b-4aaa-bbc7-499ea832f6d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks\BottleTasks">
+      <UniqueIdentifier>{ab1c52b5-4eb6-4726-aefd-8423f39ee7d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks\ProductIdentificationTasks">
+      <UniqueIdentifier>{47730cb4-2a68-440c-8e01-df27444c1511}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks\ProductTypeTasks">
+      <UniqueIdentifier>{29e96c75-f778-4263-9cf8-4073bc521959}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\BottleCapAndLabelInspection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CapColorIdentification.cpp">
+      <Filter>Source Files\SpecificTasks\CapTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\CapScrewInspection_CapAndLabel.cpp">
+      <Filter>Source Files\SpecificTasks\CapTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ThreadInspection.cpp">
+      <Filter>Source Files\SpecificTasks\CapTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LabelAlignmentInspection.cpp">
+      <Filter>Source Files\SpecificTasks\LabelAligmentTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\HorizontalAlignment.cpp">
+      <Filter>Source Files\SpecificTasks\BottleTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ReadDatamatrixTask.cpp">
+      <Filter>Source Files\SpecificTasks\ProductIdentificationTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ReadStringTask.cpp">
+      <Filter>Source Files\SpecificTasks\ProductIdentificationTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\ProductTypeIdentification.cpp">
+      <Filter>Source Files\SpecificTasks\ProductTypeTasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CapColorIdentification.h">
+      <Filter>Header Files\SpecificTasks\CapTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CapScrewInspection_CapAndLabel.h">
+      <Filter>Header Files\SpecificTasks\CapTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ThreadInspection.h">
+      <Filter>Header Files\SpecificTasks\CapTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LabelAlignmentInspection.h">
+      <Filter>Header Files\SpecificTasks\LabelAlignmentTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\HorizontalAlignment.h">
+      <Filter>Header Files\SpecificTasks\BottleTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ReadDatamatrixTask.h">
+      <Filter>Header Files\SpecificTasks\ProductIdentificationTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ReadStringTask.h">
+      <Filter>Header Files\SpecificTasks\ProductIdentificationTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\ProductTypeIdentification.h">
+      <Filter>Header Files\SpecificTasks\ProductTypeTasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

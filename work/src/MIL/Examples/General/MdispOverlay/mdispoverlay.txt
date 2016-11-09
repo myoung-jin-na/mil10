@@ -1,0 +1,17 @@
+[EXAMPLE NUMBER]
+Example #100
+
+[EXAMPLE NAME]
+MdispOverlay
+
+[FILE NAME]
+mdispoverlay.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program shows how to display an image while creating text and graphics annotations on top of it using MIL graphic functions and windows GDI drawing under Windows. If the target system supports grabbing, the annotations are done on top of live video.
+
+[DIGITIZER NEEDED]
+Yes

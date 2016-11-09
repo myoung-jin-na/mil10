@@ -1,0 +1,84 @@
+------ Rebuild All started: Project: MILApplicationLibrary, Configuration: Release x64 ------
+  MILApplicationLibrary -> W:\cdbuilder\mil\examples\MIL.NET\General\MdispWPF\VB\vs2010\bin\x64\Release\MILApplicationLibrary.dll
+------ Rebuild All started: Project: MGraInteractive, Configuration: Release x64 ------
+  MGraInteractive -> W:\cdbuilder\mil\examples\MIL.NET\full\MGraInteractive\VB\vs2010\bin\x64\Release\MGraInteractive.exe
+------ Rebuild All started: Project: MAppBenchmark, Configuration: Release x64 ------
+  MAppBenchmark -> W:\cdbuilder\mil\examples\MIL.NET\full\MAppBenchmark\VB\vs2010\bin\x64\Release\MAppBenchmark.exe
+------ Rebuild All started: Project: MSeqProcess, Configuration: Release x64 ------
+  MSeqProcess -> W:\cdbuilder\mil\examples\MIL.NET\General\MSeqProcess\VB\vs2010\bin\x64\Release\MSeqProcess.exe
+------ Rebuild All started: Project: MBead, Configuration: Release x64 ------
+  MBead -> W:\cdbuilder\mil\examples\MIL.NET\full\Mbead\VB\vs2010\bin\x64\Release\MBead.exe
+------ Rebuild All started: Project: MGraText, Configuration: Release x64 ------
+  MGraText -> W:\cdbuilder\mil\examples\MIL.NET\General\MgraText\VB\vs2010\bin\x64\Release\MGraText.exe
+------ Rebuild All started: Project: MCol, Configuration: Release x64 ------
+  MCol -> W:\cdbuilder\mil\examples\MIL.NET\full\Mcol\VB\vs2010\bin\x64\Release\MCol.exe
+------ Rebuild All started: Project: M3dMap, Configuration: Release x64 ------
+  M3dMap -> W:\cdbuilder\mil\examples\MIL.NET\full\M3dMap\VB\vs2010\bin\x64\Release\M3dMap.exe
+------ Rebuild All started: Project: MThread, Configuration: Release x64 ------
+  MThread -> W:\cdbuilder\mil\examples\MIL.NET\General\Mthread\VB\vs2010\bin\x64\Release\MThread.exe
+------ Rebuild All started: Project: MStr, Configuration: Release x64 ------
+  MStr -> W:\cdbuilder\mil\examples\MIL.NET\full\Mstr\VB\vs2010\bin\x64\Release\MStr.exe
+------ Rebuild All started: Project: MReg, Configuration: Release x64 ------
+  MReg -> W:\cdbuilder\mil\examples\MIL.NET\full\Mreg\VB\vs2010\bin\x64\Release\MReg.exe
+------ Rebuild All started: Project: MPat, Configuration: Release x64 ------
+  MPat -> W:\cdbuilder\mil\examples\MIL.NET\full\Mpat\VB\vs2010\bin\x64\Release\MPat.exe
+------ Rebuild All started: Project: MOcr, Configuration: Release x64 ------
+  MOcr -> W:\cdbuilder\mil\examples\MIL.NET\full\Mocr\VB\vs2010\bin\x64\Release\MOcr.exe
+------ Rebuild All started: Project: MModelTracking, Configuration: Release x64 ------
+  MModelTracking -> W:\cdbuilder\mil\examples\MIL.NET\full\MModelTracking\VB\vs2010\bin\x64\Release\MModelTracking.exe
+------ Rebuild All started: Project: MMod, Configuration: Release x64 ------
+  MMod -> W:\cdbuilder\mil\examples\MIL.NET\full\Mmod\VB\vs2010\bin\x64\Release\MMod.exe
+------ Rebuild All started: Project: MMet, Configuration: Release x64 ------
+  MMet -> W:\cdbuilder\mil\examples\MIL.NET\full\Mmet\VB\vs2010\bin\x64\Release\MMet.exe
+------ Rebuild All started: Project: MMeas, Configuration: Release x64 ------
+  MMeas -> W:\cdbuilder\mil\examples\MIL.NET\full\Mmeas\VB\vs2010\bin\x64\Release\MMeas.exe
+------ Rebuild All started: Project: MImWarp, Configuration: Release x64 ------
+  MImWarp -> W:\cdbuilder\mil\examples\MIL.NET\full\MimWarp\VB\vs2010\bin\x64\Release\MImWarp.exe
+------ Rebuild All started: Project: MImSegment, Configuration: Release x64 ------
+  MImSegment -> W:\cdbuilder\mil\examples\MIL.NET\full\MImSegment\VB\vs2010\bin\x64\Release\MImSegment.exe
+------ Rebuild All started: Project: MImProcessing, Configuration: Release x64 ------
+  MImProcessing -> W:\cdbuilder\mil\examples\MIL.NET\General\MImProcessing\VB\vs2010\bin\x64\Release\MImProcessing.exe
+------ Rebuild All started: Project: MImPolar, Configuration: Release x64 ------
+  MImPolar -> W:\cdbuilder\mil\examples\MIL.NET\full\MimPolar\VB\vs2010\bin\x64\Release\MImPolar.exe
+------ Rebuild All started: Project: MImLocatePeak1d, Configuration: Release x64 ------
+  MImLocatePeak1d -> W:\cdbuilder\mil\examples\MIL.NET\full\MImLocatePeak1d\VB\vs2010\bin\x64\Release\MImLocatePeak1d.exe
+------ Rebuild All started: Project: MImHistogram, Configuration: Release x64 ------
+  MImHistogram -> W:\cdbuilder\mil\examples\MIL.NET\General\MimHistogram\VB\vs2010\bin\x64\Release\MimHistogram.exe
+------ Rebuild All started: Project: MImFFT, Configuration: Release x64 ------
+  MImFFT -> W:\cdbuilder\mil\examples\MIL.NET\full\MimFFT\VB\vs2010\bin\x64\Release\MImFFT.exe
+------ Rebuild All started: Project: MImConvolve, Configuration: Release x64 ------
+  MImConvolve -> W:\cdbuilder\mil\examples\MIL.NET\full\MImConvolve\VB\vs2010\bin\x64\Release\MImConvolve.exe
+------ Rebuild All started: Project: MFunc, Configuration: Release x64 ------
+  MFunc -> W:\cdbuilder\mil\examples\MIL.NET\General\Mfunc\VB\vs2010\bin\x64\Release\MFunc.exe
+------ Rebuild All started: Project: MEdge, Configuration: Release x64 ------
+  MEdge -> W:\cdbuilder\mil\examples\MIL.NET\full\Medge\VB\vs2010\bin\x64\Release\MEdge.exe
+------ Rebuild All started: Project: MDispWindowLeveling, Configuration: Release x64 ------
+  MDispWindowLeveling -> W:\cdbuilder\mil\examples\MIL.NET\General\MDispWindowLeveling\VB\vs2010\bin\x64\Release\MDispWindowLeveling.exe
+------ Rebuild All started: Project: MDispWindow, Configuration: Release x64 ------
+  MDispWindow -> W:\cdbuilder\mil\examples\MIL.NET\General\MDispWindow\VB\vs2010\bin\x64\Release\MDispWindow.exe
+------ Rebuild All started: Project: MDispOverlay, Configuration: Release x64 ------
+  MDispOverlay -> W:\cdbuilder\mil\examples\MIL.NET\General\MDispOverlay\VB\vs2010\bin\x64\Release\MDispOverlay.exe
+------ Rebuild All started: Project: MDigProcess, Configuration: Release x64 ------
+  MDigProcess -> W:\cdbuilder\mil\examples\MIL.NET\General\MDigProcess\VB\vs2010\bin\x64\Release\MDigProcess.exe
+------ Rebuild All started: Project: MDigGrabSequence, Configuration: Release x64 ------
+  MDigGrabSequence -> W:\cdbuilder\mil\examples\MIL.NET\General\MDigGrabSequence\VB\vs2010\bin\x64\Release\MDigGrabSequence.exe
+------ Rebuild All started: Project: MDigGrab, Configuration: Release x64 ------
+  MDigGrab -> W:\cdbuilder\mil\examples\MIL.NET\General\MdigGrab\VB\vs2010\bin\x64\Release\MDigGrab.exe
+------ Rebuild All started: Project: MDigDoubleBuffering, Configuration: Release x64 ------
+  MDigDoubleBuffering -> W:\cdbuilder\mil\examples\MIL.NET\General\MDigDoubleBuffering\VB\vs2010\bin\x64\Release\MDigDoubleBuffering.exe
+------ Rebuild All started: Project: MDigAutoFocus, Configuration: Release x64 ------
+  MDigAutoFocus -> W:\cdbuilder\mil\examples\MIL.NET\full\MDigAutoFocus\VB\vs2010\bin\x64\Release\MDigAutoFocus.exe
+------ Rebuild All started: Project: MCode, Configuration: Release x64 ------
+  MCode -> W:\cdbuilder\mil\examples\MIL.NET\full\Mcode\VB\vs2010\bin\x64\Release\MCode.exe
+------ Rebuild All started: Project: MCal, Configuration: Release x64 ------
+  MCal -> W:\cdbuilder\mil\examples\MIL.NET\full\Mcal\VB\vs2010\bin\x64\Release\MCal.exe
+------ Rebuild All started: Project: MBufColor, Configuration: Release x64 ------
+  MBufColor -> W:\cdbuilder\mil\examples\MIL.NET\General\MBufColor\VB\vs2010\bin\x64\Release\MBufColor.exe
+------ Rebuild All started: Project: MBlob, Configuration: Release x64 ------
+  MBlob -> W:\cdbuilder\mil\examples\MIL.NET\full\Mblob\VB\vs2010\bin\x64\Release\MBlob.exe
+------ Rebuild All started: Project: MAppStart, Configuration: Release x64 ------
+  MAppStart -> W:\cdbuilder\mil\examples\MIL.NET\General\MAppStart\VB\vs2010\bin\x64\Release\MAppStart.exe
+------ Rebuild All started: Project: MdispWPF, Configuration: Release x64 ------
+  MdispWPF -> W:\cdbuilder\mil\examples\MIL.NET\General\MdispWPF\VB\vs2010\bin\x64\Release\MdispWPF.exe
+========== Rebuild All: 41 succeeded, 0 failed, 0 skipped ==========
+

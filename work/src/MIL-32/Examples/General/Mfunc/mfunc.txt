@@ -1,0 +1,16 @@
+[EXAMPLE NUMBER]
+Example #290
+
+[EXAMPLE NAME]
+Mfunc
+
+[FILE NAME]
+mfunc.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This example shows the use of the MIL Function Developer Tool Kit and how MIL and custom code can be mixed to create a custom MIL function that accesses the data pointer of a MIL buffer directly in order to process it. The example creates a Master MIL function that registers all the parameters to MIL and calls the Slave function. The Slave function retrieves all the parameters, gets the pointers to the MIL image buffers, uses them to access the data directly, and adds a constant.
+
+Note: The images must be 8 bit unsigned.

@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MAppBenchmark", "MAppBenchmark.vbproj", "{DAFBA425-BAE0-4B1F-9BF6-E807EA94F3F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAFBA425-BAE0-4B1F-9BF6-E807EA94F3F3}.Debug|x64.ActiveCfg = Debug|x64
+		{DAFBA425-BAE0-4B1F-9BF6-E807EA94F3F3}.Debug|x64.Build.0 = Debug|x64
+		{DAFBA425-BAE0-4B1F-9BF6-E807EA94F3F3}.Release|x64.ActiveCfg = Release|x64
+		{DAFBA425-BAE0-4B1F-9BF6-E807EA94F3F3}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,76 @@
+<ROOT valuetype='CameraObject'>
+<PC>
+<PARAMETER name='ip' >192.168.0.12</PARAMETER>
+<PARAMETER name='port' >53978</PARAMETER>
+<PARAMETER name='protocol timeout' >15000</PARAMETER>
+</PC>
+<CAMERA name='Ranger E55' valuetype='PM' >
+<MODULE name='Ethernet' valuetype='COMM' >
+<GROUP name='Parameters'>
+<PARAMETER name='max package size' valuetype='int' info='Maximum UDP package size' min='512' max='4054' default='1472' parametertype ='Argument'>1472</PARAMETER>
+<PARAMETER name='redundancy frequency' valuetype='int' info='number of data packages sent between each recovery package' min='0' max='100' default='10' parametertype ='Argument'>10</PARAMETER>
+</GROUP>
+</MODULE>
+<MODULE name='System' valuetype='SYS' >
+<GROUP name='Parameters'>
+<PARAMETER name='laser on' valuetype='int' info='0 - off, 1 - on, 2 - enable controlled when running' min='0' max='2' default='1' parametertype ='Setting'>1</PARAMETER>
+</GROUP>
+</MODULE>
+<CONFIGURATION name='Measurement' valuetype='Measurement' >
+<GROUP name='Parameters'>
+<PARAMETER name='cycle time' valuetype='int' info='micro seconds' min='25' max='50000' default='3000' parametertype ='Setting'>5000</PARAMETER>
+<PARAMETER name='start column' valuetype='int' info='start column' min='0' max='1280' default='0' parametertype ='Argument'>0
+</PARAMETER>
+<PARAMETER name='number of columns' valuetype='int' info='sensor width, must modulo 8' min='256' max='1536' default='1536' parametertype ='Argument'>1536</PARAMETER>
+<PARAMETER name='trig mode' valuetype='int' info='0-none, 2 - pulse, 3 - position, 4 - direction, 5 - motion' min='0' max='5' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of pulses per trig' valuetype='int' info='only valid for pulse trig' min='1' max='65536' default='1' parametertype ='Setting'>1</PARAMETER>
+<PARAMETER name='encoder direction' valuetype='int' info='0- forward, 1 - reverse' min='0' max='1' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='use enable' valuetype='int' info='0-No enable, 1-Enable, 2-Single frame enable, 3-Enable with end in mark' min='0' max='3' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='scan height' valuetype='int' info='number of scans per buffer, should correspond to Ranger Studio lines per frame' min='1' max='65536' default='512' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='mark' valuetype='int' info='0-disable, 1-enable' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='mark with' valuetype='int' info='0- encoder signal, 1- counter, 2 - ext mark pos, 3 - ext mark motion' min='0' max='3' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='mark reset' valuetype='int' info='0-reset mark at start, 1-reset mark at enable high' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+</GROUP>
+<COMPONENT name='Hi3D 1' valuetype='DCM' >
+<GROUP name='Parameters'>
+<PARAMETER name='enable' valuetype='int' info='component in measurement' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='start row' valuetype='int' info='first sensor row' min='0' max='511' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of rows' valuetype='int' info='number of rows -multiple of binning*16' min='16' max='512' default='512' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='binning' valuetype='int' info='Binning, 2 rows gives higher speed' min='1' max='2' default='1' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='range axis' valuetype='int' info='0 - standard, 1 - reversed range axis' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='exposure time' valuetype='int' info='micro seconds' min='10' max='50000' default='5000' parametertype ='Setting'>5000</PARAMETER>
+<PARAMETER name='laser pulse time' valuetype='int' info='0 no pulse, else pulse of x micro seconds' min='0' max='50000' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='pulse polarity' valuetype='int' info='0 - active low 1 - active high' min='0' max='1' default='1' parametertype ='Setting'>1</PARAMETER>
+<PARAMETER name='gain' valuetype='int' info='read-out gain 1,3,4' min='1' max='4' default='1' parametertype ='Setting'>1</PARAMETER>
+<PARAMETER name='threshold' valuetype='int' info='noise floor 0-255' min='0' max='255' default='10' parametertype ='Setting'>100</PARAMETER>
+<PARAMETER name='ad bits' valuetype='int' info='ad converter resolution 5-8 bits' min='5' max='8' default='7' parametertype ='Setting'>7</PARAMETER>
+<PARAMETER name='enable scatter' valuetype='int' info='enable scatter data (only supported models)' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='scatter position' valuetype='int' info='scatter position offset 0 - 50' min='0' max='50' default='35' parametertype ='Setting'>35</PARAMETER>
+<PARAMETER name='scatter gain' valuetype='int' info='scatter signal gain 0 - 7' min='0' max='7' default='1' parametertype ='Setting'>1</PARAMETER>
+</GROUP>
+</COMPONENT>
+</CONFIGURATION>
+<CONFIGURATION name='Image' valuetype='Image' >
+<GROUP name='Parameters'>
+<PARAMETER name='start column' valuetype='int' info='first column' min='0' max='1280' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of columns' valuetype='int' info='sensor width, must be modulo 8' min='256' max='1536' default='1536' parametertype ='Argument'>1536</PARAMETER>
+<PARAMETER name='trig mode' valuetype='int' info='0-none, 2 - pulse, 3 - position, 4 - direction, 5 - motion' min='0' max='5' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of pulses per trig' valuetype='int' info='only applicable for pulse trig' min='1' max='65535' default='1' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='encoder direction' valuetype='int' info='0- forward, 1 - reverse' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='use enable' valuetype='int' info='0-No enable, 1-Enable, 2-Single frame enable' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+</GROUP>
+<COMPONENT name='Image 1' valuetype='image' >
+<GROUP name='Parameters'>
+<PARAMETER name='enable' valuetype='int' info='component in measurement' min='1' max='1' default='1' parametertype ='Argument'>1</PARAMETER>
+<PARAMETER name='measurement ROI overlay' valuetype='int' info='shows all measurement component ROIs in image' min='0' max='1' default='0' parametertype ='Setting'>0</PARAMETER>
+<PARAMETER name='start row' valuetype='int' info='first sensor row' min='0' max='511' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='number of rows' valuetype='int' info='number of rows' min='8' max='512' default='512' parametertype ='Argument'>512</PARAMETER>
+<PARAMETER name='show hires' valuetype='int' info='display hires and dummy rows' min='0' max='1' default='0' parametertype ='Argument'>0</PARAMETER>
+<PARAMETER name='exposure time' valuetype='int' info='micro seconds' min='10' max='200000' default='10000' parametertype ='Setting'>10000</PARAMETER>
+<PARAMETER name='gain' valuetype='int' info='read-out gain 1,3,4' min='1' max='4' default='1' parametertype ='Setting'>1</PARAMETER>
+<PARAMETER name='image speed' valuetype='int' info='desired max Mbit data rate' min='5' max='400' default='100' parametertype ='Setting'>100</PARAMETER>
+</GROUP>
+</COMPONENT>
+</CONFIGURATION>
+</CAMERA>
+</ROOT>

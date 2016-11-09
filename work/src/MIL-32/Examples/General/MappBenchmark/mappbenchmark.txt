@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #15
+
+[EXAMPLE NAME]
+MappBenchmark
+
+[FILE NAME]
+mappbenchmark.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the MappTimer function to demonstrate the benchmarking of MIL functions.

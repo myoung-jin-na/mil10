@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #160
+
+[EXAMPLE NAME]
+MimSegment
+
+[FILE NAME]
+mimsegment.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the watershed and the edge detection functions to remove the background of an image with a non-linear lighting. Then, the watershed and the distance functions are used to separate the touching objects.

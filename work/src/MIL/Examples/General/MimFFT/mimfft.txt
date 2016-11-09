@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #175
+
+[EXAMPLE NAME]
+MimFFT
+
+[FILE NAME]
+mimfft.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the Fast Fourier Transform to filter an image.

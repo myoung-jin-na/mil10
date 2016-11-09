@@ -1,0 +1,18 @@
+[EXAMPLE NUMBER]
+Example #85
+
+[EXAMPLE NAME]
+MseqProcess
+
+[FILE NAME]
+mseqprocess.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program shows the use of the MseqProcess() and MseqFeed() function to perform real-time encoding. 
+The function responsible for queueing buffer for encoding is in the dig process hook function.
+
+[DIGITIZER NEEDED]
+Yes

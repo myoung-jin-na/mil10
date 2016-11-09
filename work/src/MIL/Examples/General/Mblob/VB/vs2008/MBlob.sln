@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MBlob", "MBlob.vbproj", "{DB9C7CF1-11DE-49F0-9DCF-F7FD145A6C99}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DB9C7CF1-11DE-49F0-9DCF-F7FD145A6C99}.Debug|x64.ActiveCfg = Debug|x64
+		{DB9C7CF1-11DE-49F0-9DCF-F7FD145A6C99}.Debug|x64.Build.0 = Debug|x64
+		{DB9C7CF1-11DE-49F0-9DCF-F7FD145A6C99}.Release|x64.ActiveCfg = Release|x64
+		{DB9C7CF1-11DE-49F0-9DCF-F7FD145A6C99}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

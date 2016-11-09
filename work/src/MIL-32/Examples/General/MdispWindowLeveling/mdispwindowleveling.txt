@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #90
+
+[EXAMPLE NAME]
+MdispWindowLeveling
+
+[FILE NAME]
+mdispwindowleveling.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This MIL program shows how to display a 10-bit monochrome Medical image and apply a LUT to perform interactive Window Leveling.

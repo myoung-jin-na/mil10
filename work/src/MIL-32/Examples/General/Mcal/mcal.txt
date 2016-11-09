@@ -1,0 +1,20 @@
+[EXAMPLE NUMBER]
+Example #260
+
+[EXAMPLE NAME]
+Mcal
+
+[FILE NAME]
+mcal.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the Calibration module in two different situations.
+
+In the first case, we calibrate a high distortion camera with an image of a grid. Then, an image of a board grabbed with the same camera is loaded and some measurements are done in real world calibrated units. Finally the distorted board image is corrected using the same camera calibration.
+
+In the second case, we calibrate a camera at a position causing high perspective distortion. Then, an image grabbed with same camera is loaded and some measurements are done at different heights. Then, the calibration module changes the camera position and orientation according to a known encoder transformation. Finally, the same objects are measured again in an image grabbed from this new camera position.
+
+Note: Printable calibration grids in PDF format can be found in your "Matrox Imaging/Images/" directory.

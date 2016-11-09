@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MdispWPF", "..\MdispWPF\MdispWPF.csproj", "{B927D331-1322-4F51-97A2-466D4E88D2B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MILApplicationLibrary", "..\MILApplicationLibrary\MILApplicationLibrary.csproj", "{4DBC970A-D33B-4282-8929-E85637965336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B927D331-1322-4F51-97A2-466D4E88D2B5}.Debug|x64.ActiveCfg = Debug|x64
+		{B927D331-1322-4F51-97A2-466D4E88D2B5}.Debug|x64.Build.0 = Debug|x64
+		{B927D331-1322-4F51-97A2-466D4E88D2B5}.Release|x64.ActiveCfg = Release|x64
+		{B927D331-1322-4F51-97A2-466D4E88D2B5}.Release|x64.Build.0 = Release|x64
+		{4DBC970A-D33B-4282-8929-E85637965336}.Debug|x64.ActiveCfg = Debug|x64
+		{4DBC970A-D33B-4282-8929-E85637965336}.Debug|x64.Build.0 = Debug|x64
+		{4DBC970A-D33B-4282-8929-E85637965336}.Release|x64.ActiveCfg = Release|x64
+		{4DBC970A-D33B-4282-8929-E85637965336}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

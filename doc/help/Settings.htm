@@ -1,0 +1,44 @@
+<HTML>
+<head>
+<script type="text/javascript" src="DynamicInfo/InstalledBoards.js"></script>
+<script type="text/javascript" src="DynamicInfo/helpVersion.js"></script>
+									
+<script type="text/javascript">
+SID_JSON_OBJECT       = 0x0D;  // The most recent update installed. Make sure this has the same value as in Matrox.Imaging.Common.js
+var COOKIE_VERSION = "COOKIE_MIL10_FORMAT";
+
+//add your information here.
+var jsonTxt = '{' +
+					'"installedBoards" 	:' + 	installedBoardsTxt + ','+
+					'"helpVersion" 	:' + 	helpVersionTxt +
+			   '}';
+function load(){
+  var settings = document.getElementById("settings");
+
+  if (document.cookie){
+    var cleanContents = "";
+	var coockieContents = unescape(document.cookie.split(/;/)[0]);
+	if(coockieContents.indexOf(COOKIE_VERSION) == 0)
+		cleanContents = coockieContents.substring(COOKIE_VERSION.length);
+	else
+		cleanContents = "";
+	settings.innerHTML = SID_JSON_OBJECT + ";;" + jsonTxt + ";;" + cleanContents;
+  }else
+  {
+	settings.innerHTML = SID_JSON_OBJECT + ";;" + jsonTxt + ";;";
+  }
+
+  settings.store = function(str){
+	var d = new Date();
+	d.setFullYear(d.getFullYear() + 1);
+	document.cookie = escape(COOKIE_VERSION + str) + "; expires=" + d.toGMTString();
+  }
+
+}
+
+</script>
+</head>
+<body onload="load();">
+   <DIV ID="settings"/>
+</body>
+</HTML>

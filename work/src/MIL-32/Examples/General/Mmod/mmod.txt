@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #220
+
+[EXAMPLE NAME]
+Mmod
+
+[FILE NAME]
+mmod.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the Geometric Model Finder module to define geometric models and searches for these models in a target image. A simple single model example (1 model, 1 occurrence, good search conditions) is presented first, followed by a more complex example (multiple models, multiple occurrences in a complex scene with bad search conditions).

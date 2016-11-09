@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{37458ac0-ec87-48e1-b36f-da8f0d054de3}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\SpecificTasks">
+      <UniqueIdentifier>{8d121763-699c-4be2-9458-80128b7c8c69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{fe410d59-a2ca-493a-a5d3-0c1e67ab119d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpecificTasks">
+      <UniqueIdentifier>{ee7ce0cb-836a-4fff-b2b9-9b005fcaff96}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\CenteredLabelInspection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\MetrologyAlignment.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LidColorsVerification.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+    <ClCompile Include="..\LidIdentification.cpp">
+      <Filter>Source Files\SpecificTasks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\MetrologyAlignment.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LidColorsVerification.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+    <ClInclude Include="..\LidIdentification.h">
+      <Filter>Header Files\SpecificTasks</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

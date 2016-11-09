@@ -1,0 +1,19 @@
+[EXAMPLE NUMBER]
+Example #60
+
+[EXAMPLE NAME]
+MdigDoubleBuffering
+
+[FILE NAME]
+mdigdoublebuffering.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program performs a double-buffering grab, times the processing, and displays some statistics.
+
+Note:  The double-buffering method is not recommended for real-time processing when the CPU usage is high. For more robust real-time behavior, use the MdigProcess() function. See MDigProcess.c for a complete example.
+
+[DIGITIZER NEEDED]
+Yes

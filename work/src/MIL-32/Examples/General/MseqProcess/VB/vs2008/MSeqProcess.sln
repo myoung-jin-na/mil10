@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "MSeqProcess", "MSeqProcess.vbproj", "{AC685492-0AE1-4C8A-9B96-CEA0191719CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC685492-0AE1-4C8A-9B96-CEA0191719CD}.Debug|x86.ActiveCfg = Debug|x86
+		{AC685492-0AE1-4C8A-9B96-CEA0191719CD}.Debug|x86.Build.0 = Debug|x86
+		{AC685492-0AE1-4C8A-9B96-CEA0191719CD}.Release|x86.ActiveCfg = Release|x86
+		{AC685492-0AE1-4C8A-9B96-CEA0191719CD}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

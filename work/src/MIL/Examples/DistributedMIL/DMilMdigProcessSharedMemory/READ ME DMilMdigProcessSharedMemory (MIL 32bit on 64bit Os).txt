@@ -1,0 +1,22 @@
+
+/*************************************************************************************/
+/*
+ * File name: DMilMdigProcessSharedMemory.cpp
+ *
+ * Synopsis:  This program shows the use of Distributed MIL (DMIL) and the MdigProcess() 
+ *            function to do image capture using a 32 bit MIL process running on a 64 bit 
+ *            OS.
+ *
+ *            The 32 bit process uses DMIL to send commands to a 64 bit MIL 
+ *            and its device drivers. Images are acquired by the 64 bit DMIL Slave
+ *            System and the grabbed images are copied very quickly to the 32 bit 
+ *            MIL process via inter-process shared memory. 
+ *
+ *            32 bit MIL and 64 bit MIL with the DMIL option must be installed on 
+ *            the same PC that will run the project. The project must be compiled
+ *            in both Win32 and x64 platform so that all the necessary components 
+ *            are generated and the DMIL DLL is copied to the proper directory on 
+ *            the local PC.
+ *
+ *
+ */

@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #288
+
+[EXAMPLE NAME]
+Mcol
+
+[FILE NAME]
+mcol.cpp
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program uses the color module to perform color segmentation, color identification and color separation.

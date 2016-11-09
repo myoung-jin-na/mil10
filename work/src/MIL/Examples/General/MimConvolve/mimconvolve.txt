@@ -1,0 +1,14 @@
+[EXAMPLE NUMBER]
+Example #140
+
+[EXAMPLE NAME]
+MimConvolve
+
+[FILE NAME]
+mimconvolve.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program performs a 3x3 convolution using a custom kernel and calculates the convolution time.

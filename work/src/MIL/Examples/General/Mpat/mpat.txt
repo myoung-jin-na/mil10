@@ -1,0 +1,17 @@
+[EXAMPLE NUMBER]
+Example #210
+
+[EXAMPLE NAME]
+Mpat
+
+[FILE NAME]
+mpat.cpp 
+
+[REVISION]
+Revision= 10.00.2564
+
+[SYNOPSIS]
+This program contains 3 examples of the pattern matching module:
+The first example defines a model and then searches for it in a shifted version of the image (without rotation).
+The second example defines a model and then searches for it in a rotated version of the image.
+The third example automatically allocates a model in a wafer image and finds its horizontal and vertical displacement.

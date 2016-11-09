@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMILSyncAsyncMaster", "..\DMILSyncAsyncMaster\vs2008\DMILSyncAsync.vcproj", "{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DMILSyncAsyncSlave", "..\DMILSyncAsyncSlave\vs2008\DMILSyncAsyncSlave.vcproj", "{F9F4BFB2-08E8-4558-B09F-500C2152C952}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E121F902-EDFA-48E6-8096-88DD4B46ACF7}.Debug|x64.ActiveCfg = Debug|x64
+		{E121F902-EDFA-48E6-8096-88DD4B46ACF7}.Debug|x64.Build.0 = Debug|x64
+		{E121F902-EDFA-48E6-8096-88DD4B46ACF7}.Release|x64.ActiveCfg = Release|x64
+		{E121F902-EDFA-48E6-8096-88DD4B46ACF7}.Release|x64.Build.0 = Release|x64
+		{58F29F19-D47F-4790-BD82-BB7512FE939E}.Debug|x64.ActiveCfg = Debug|x64
+		{58F29F19-D47F-4790-BD82-BB7512FE939E}.Debug|x64.Build.0 = Debug|x64
+		{58F29F19-D47F-4790-BD82-BB7512FE939E}.Release|x64.ActiveCfg = Release|x64
+		{58F29F19-D47F-4790-BD82-BB7512FE939E}.Release|x64.Build.0 = Release|x64
+		{0C04DB36-AA3E-4E61-AED1-73BB942B6121}.Debug|x64.ActiveCfg = Debug|x64
+		{0C04DB36-AA3E-4E61-AED1-73BB942B6121}.Debug|x64.Build.0 = Debug|x64
+		{0C04DB36-AA3E-4E61-AED1-73BB942B6121}.Release|x64.ActiveCfg = Release|x64
+		{0C04DB36-AA3E-4E61-AED1-73BB942B6121}.Release|x64.Build.0 = Release|x64
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Debug|x64.ActiveCfg = Debug|x64
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Debug|x64.Build.0 = Debug|x64
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Release|x64.ActiveCfg = Release|x64
+		{8BE379BF-DDFC-4BD5-A127-73FC63F58AEE}.Release|x64.Build.0 = Release|x64
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Debug|x64.ActiveCfg = Debug|x64
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Debug|x64.Build.0 = Debug|x64
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Release|x64.ActiveCfg = Release|x64
+		{F9F4BFB2-08E8-4558-B09F-500C2152C952}.Release|x64.Build.0 = Release|x64
+		{6BB70A44-95C7-4474-8EA6-CC45471F5892}.Debug|x64.ActiveCfg = Debug|x64
+		{6BB70A44-95C7-4474-8EA6-CC45471F5892}.Debug|x64.Build.0 = Debug|x64
+		{6BB70A44-95C7-4474-8EA6-CC45471F5892}.Release|x64.ActiveCfg = Release|x64
+		{6BB70A44-95C7-4474-8EA6-CC45471F5892}.Release|x64.Build.0 = Release|x64
+		{8353A77E-5731-43BF-A0F4-2D84CE3CDB9A}.Debug|x64.ActiveCfg = Debug|x64
+		{8353A77E-5731-43BF-A0F4-2D84CE3CDB9A}.Debug|x64.Build.0 = Debug|x64
+		{8353A77E-5731-43BF-A0F4-2D84CE3CDB9A}.Release|x64.ActiveCfg = Release|x64
+		{8353A77E-5731-43BF-A0F4-2D84CE3CDB9A}.Release|x64.Build.0 = Release|x64
+		{27C4DAB4-1A74-4FF5-86DE-F0B07A53CAAB}.Debug|x64.ActiveCfg = Debug|x64
+		{27C4DAB4-1A74-4FF5-86DE-F0B07A53CAAB}.Debug|x64.Build.0 = Debug|x64
+		{27C4DAB4-1A74-4FF5-86DE-F0B07A53CAAB}.Release|x64.ActiveCfg = Release|x64
+		{27C4DAB4-1A74-4FF5-86DE-F0B07A53CAAB}.Release|x64.Build.0 = Release|x64
+		{F468B1FD-081D-4E42-A1B5-36AD8F061A30}.Debug|x64.ActiveCfg = Debug|x64
+		{F468B1FD-081D-4E42-A1B5-36AD8F061A30}.Debug|x64.Build.0 = Debug|x64
+		{F468B1FD-081D-4E42-A1B5-36AD8F061A30}.Release|x64.ActiveCfg = Release|x64
+		{F468B1FD-081D-4E42-A1B5-36AD8F061A30}.Release|x64.Build.0 = Release|x64
+		{0D7D7506-B1ED-4BE3-A253-A538079C6A54}.Debug|x64.ActiveCfg = Debug|x64
+		{0D7D7506-B1ED-4BE3-A253-A538079C6A54}.Debug|x64.Build.0 = Debug|x64
+		{0D7D7506-B1ED-4BE3-A253-A538079C6A54}.Release|x64.ActiveCfg = Release|x64
+		{0D7D7506-B1ED-4BE3-A253-A538079C6A54}.Release|x64.Build.0 = Release|x64
+		{77BAF02D-5B39-4E4B-941D-D0080001757A}.Debug|x64.ActiveCfg = Debug|x64
+		{77BAF02D-5B39-4E4B-941D-D0080001757A}.Debug|x64.Build.0 = Debug|x64
+		{77BAF02D-5B39-4E4B-941D-D0080001757A}.Release|x64.ActiveCfg = Release|x64
+		{77BAF02D-5B39-4E4B-941D-D0080001757A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
